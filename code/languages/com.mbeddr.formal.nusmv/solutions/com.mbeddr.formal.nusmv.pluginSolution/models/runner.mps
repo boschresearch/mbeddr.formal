@@ -467,6 +467,181 @@
         <property role="NWlVz" value="Runs NuSMV on a given file." />
       </node>
     </node>
+    <node concept="2tJIrI" id="5JxTVX$NBt1" role="jymVt" />
+    <node concept="2YIFZL" id="5JxTVX$NABo" role="jymVt">
+      <property role="TrG5h" value="runNuSMVWithOptionalPath" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="5JxTVX$NABp" role="3clF47">
+        <node concept="3cpWs8" id="5JxTVX$NGrE" role="3cqZAp">
+          <node concept="3cpWsn" id="5JxTVX$NGrF" role="3cpWs9">
+            <property role="TrG5h" value="verificationDirectory" />
+            <node concept="17QB3L" id="5JxTVX$NGrG" role="1tU5fm" />
+            <node concept="10Nm6u" id="5JxTVX$NJ5T" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5JxTVX$NKlW" role="3cqZAp">
+          <node concept="3clFbS" id="5JxTVX$NKlY" role="3clFbx">
+            <node concept="3clFbF" id="5JxTVX$NOAm" role="3cqZAp">
+              <node concept="37vLTI" id="5JxTVX$NP07" role="3clFbG">
+                <node concept="37vLTw" id="5JxTVX$NPeI" role="37vLTx">
+                  <ref role="3cqZAo" node="5JxTVX$NDIS" resolve="optionalOutputPath" />
+                </node>
+                <node concept="37vLTw" id="5JxTVX$NOAk" role="37vLTJ">
+                  <ref role="3cqZAo" node="5JxTVX$NGrF" resolve="verificationDirectory" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5JxTVX$NLyO" role="3clFbw">
+            <node concept="10Nm6u" id="5JxTVX$NM4I" role="3uHU7w" />
+            <node concept="37vLTw" id="5JxTVX$NL6N" role="3uHU7B">
+              <ref role="3cqZAo" node="5JxTVX$NDIS" resolve="optionalOutputPath" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="5JxTVX$NMei" role="9aQIa">
+            <node concept="3clFbS" id="5JxTVX$NMej" role="9aQI4">
+              <node concept="3clFbF" id="5JxTVX$NM$e" role="3cqZAp">
+                <node concept="37vLTI" id="5JxTVX$NMYj" role="3clFbG">
+                  <node concept="37vLTw" id="5JxTVX$NM$d" role="37vLTJ">
+                    <ref role="3cqZAo" node="5JxTVX$NGrF" resolve="verificationDirectory" />
+                  </node>
+                  <node concept="2YIFZM" id="5JxTVX$NGrH" role="37vLTx">
+                    <ref role="1Pybhc" to="fhlc:3AFGfkfpqfj" resolve="PathsUtils" />
+                    <ref role="37wK5l" to="fhlc:3hNQKr2Cac0" resolve="computePathToGeneratedDirectory" />
+                    <node concept="37vLTw" id="5JxTVX$NGrI" role="37wK5m">
+                      <ref role="3cqZAo" node="5JxTVX$NAB$" resolve="m" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5JxTVX$NGrJ" role="3cqZAp">
+          <node concept="3cpWsn" id="5JxTVX$NGrK" role="3cpWs9">
+            <property role="TrG5h" value="smvFileFullyQualifiedName" />
+            <node concept="17QB3L" id="5JxTVX$NGrL" role="1tU5fm" />
+            <node concept="3cpWs3" id="5JxTVX$NGrM" role="33vP2m">
+              <node concept="37vLTw" id="5JxTVX$NGrN" role="3uHU7w">
+                <ref role="3cqZAo" node="5JxTVX$NABA" resolve="smvFileName" />
+              </node>
+              <node concept="3cpWs3" id="5JxTVX$NGrO" role="3uHU7B">
+                <node concept="37vLTw" id="5JxTVX$NGrP" role="3uHU7B">
+                  <ref role="3cqZAo" node="5JxTVX$NGrF" resolve="verificationDirectory" />
+                </node>
+                <node concept="Xl_RD" id="5JxTVX$NGrQ" role="3uHU7w">
+                  <property role="Xl_RC" value="/" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5JxTVX$NGrR" role="3cqZAp">
+          <node concept="3clFbS" id="5JxTVX$NGrS" role="3clFbx">
+            <node concept="3SKdUt" id="5JxTVX$NGrT" role="3cqZAp">
+              <node concept="3SKdUq" id="5JxTVX$NGrU" role="3SKWNk">
+                <property role="3SKdUp" value="return the error" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="5JxTVX$NGrV" role="3cqZAp">
+              <node concept="2YIFZM" id="5JxTVX$NGrW" role="3cqZAk">
+                <ref role="1Pybhc" node="4kcU3YrkdpN" resolve="NuSMVRunner" />
+                <ref role="37wK5l" node="2xeYpNCfa7F" resolve="buildRuntimeErrorResult" />
+                <node concept="37vLTw" id="5JxTVX$NGrX" role="37wK5m">
+                  <ref role="3cqZAo" node="5JxTVX$NGrK" resolve="smvFileFullyQualifiedName" />
+                </node>
+                <node concept="Xl_RD" id="5JxTVX$NGrY" role="37wK5m">
+                  <property role="Xl_RC" value="smv file not found" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="5JxTVX$NGrZ" role="3clFbw">
+            <node concept="2OqwBi" id="5JxTVX$NGs0" role="3fr31v">
+              <node concept="2ShNRf" id="5JxTVX$NGs1" role="2Oq$k0">
+                <node concept="1pGfFk" id="5JxTVX$NGs2" role="2ShVmc">
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <node concept="37vLTw" id="5JxTVX$NGs3" role="37wK5m">
+                    <ref role="3cqZAo" node="5JxTVX$NGrK" resolve="smvFileFullyQualifiedName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="5JxTVX$NGs4" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5JxTVX$NGs5" role="3cqZAp" />
+        <node concept="3cpWs8" id="5JxTVX$NGs6" role="3cqZAp">
+          <node concept="3cpWsn" id="5JxTVX$NGs7" role="3cpWs9">
+            <property role="TrG5h" value="arguments" />
+            <node concept="_YKpA" id="5JxTVX$NGs8" role="1tU5fm">
+              <node concept="17QB3L" id="5JxTVX$NGs9" role="_ZDj9" />
+            </node>
+            <node concept="2ShNRf" id="5JxTVX$NGsa" role="33vP2m">
+              <node concept="2Jqq0_" id="5JxTVX$NGsb" role="2ShVmc">
+                <node concept="17QB3L" id="5JxTVX$NGsc" role="HW$YZ" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5JxTVX$NGsi" role="3cqZAp">
+          <node concept="2OqwBi" id="5JxTVX$NGsj" role="3clFbG">
+            <node concept="37vLTw" id="5JxTVX$NGsk" role="2Oq$k0">
+              <ref role="3cqZAo" node="5JxTVX$NGs7" resolve="arguments" />
+            </node>
+            <node concept="TSZUe" id="5JxTVX$NGsl" role="2OqNvi">
+              <node concept="37vLTw" id="5JxTVX$NGsm" role="25WWJ7">
+                <ref role="3cqZAo" node="5JxTVX$NGrK" resolve="smvFileFullyQualifiedName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5JxTVX$NGsn" role="3cqZAp">
+          <node concept="2YIFZM" id="5JxTVX$NGso" role="3cqZAk">
+            <ref role="1Pybhc" node="4kcU3YrkdpN" resolve="NuSMVRunner" />
+            <ref role="37wK5l" node="2xeYpNCeHo3" resolve="doRunNuSMV" />
+            <node concept="37vLTw" id="5JxTVX$NGsp" role="37wK5m">
+              <ref role="3cqZAo" node="5JxTVX$NABC" resolve="pi" />
+            </node>
+            <node concept="37vLTw" id="5JxTVX$NGsq" role="37wK5m">
+              <ref role="3cqZAo" node="5JxTVX$NGs7" resolve="arguments" />
+            </node>
+            <node concept="37vLTw" id="5JxTVX$NGsr" role="37wK5m">
+              <ref role="3cqZAo" node="5JxTVX$NGrF" resolve="verificationDirectory" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5JxTVX$NABy" role="1B3o_S" />
+      <node concept="3uibUv" id="5JxTVX$NABz" role="3clF45">
+        <ref role="3uigEE" to="2avh:4CtHBqNlszi" resolve="ToolRunner.ToolRunResult" />
+      </node>
+      <node concept="37vLTG" id="5JxTVX$NAB$" role="3clF46">
+        <property role="TrG5h" value="m" />
+        <node concept="H_c77" id="5JxTVX$NAB_" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5JxTVX$NABA" role="3clF46">
+        <property role="TrG5h" value="smvFileName" />
+        <node concept="17QB3L" id="5JxTVX$NABB" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5JxTVX$NABC" role="3clF46">
+        <property role="TrG5h" value="pi" />
+        <node concept="3uibUv" id="5JxTVX$NABD" role="1tU5fm">
+          <ref role="3uigEE" to="xygl:~ProgressIndicator" resolve="ProgressIndicator" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5JxTVX$NDIS" role="3clF46">
+        <property role="TrG5h" value="optionalOutputPath" />
+        <node concept="17QB3L" id="5JxTVX$NE7T" role="1tU5fm" />
+      </node>
+      <node concept="NWlO9" id="5JxTVX$NABE" role="lGtFl">
+        <property role="NWlVz" value="Runs NuSMV on a given file." />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4Hts7PYtYdS" role="jymVt" />
     <node concept="2YIFZL" id="4Hts7PYua5g" role="jymVt">
       <property role="TrG5h" value="runNuSMVBMC" />
