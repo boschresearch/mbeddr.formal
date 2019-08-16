@@ -935,8 +935,8 @@
         <node concept="XkiVB" id="7LklpYzRVC_" role="3cqZAp">
           <ref role="37wK5l" to="iqf9:~AbstractRenderer.&lt;init&gt;(org.jdesktop.swingx.renderer.ComponentProvider)" resolve="AbstractRenderer" />
           <node concept="2ShNRf" id="7LklpYzRVY3" role="37wK5m">
-            <node concept="HV5vD" id="6_AAcCLjiq7" role="2ShVmc">
-              <ref role="HV5vE" to="iqf9:~LabelProvider" resolve="LabelProvider" />
+            <node concept="1pGfFk" id="6f9Dl_QL44J" role="2ShVmc">
+              <ref role="37wK5l" to="iqf9:~LabelProvider.&lt;init&gt;()" resolve="LabelProvider" />
             </node>
           </node>
         </node>
@@ -956,8 +956,8 @@
               <ref role="3uigEE" to="iqf9:~TableCellContext" resolve="TableCellContext" />
             </node>
             <node concept="2ShNRf" id="7Bf6Ux7TLTt" role="33vP2m">
-              <node concept="HV5vD" id="6_AAcCLjiq3" role="2ShVmc">
-                <ref role="HV5vE" to="iqf9:~TableCellContext" resolve="TableCellContext" />
+              <node concept="1pGfFk" id="6f9Dl_QL44P" role="2ShVmc">
+                <ref role="37wK5l" to="iqf9:~TableCellContext.&lt;init&gt;()" resolve="TableCellContext" />
               </node>
             </node>
           </node>
@@ -1539,8 +1539,8 @@
       <node concept="3clFbS" id="7Bf6Ux7Tz9n" role="3clF47">
         <node concept="3clFbF" id="7Bf6Ux7T$Jq" role="3cqZAp">
           <node concept="2ShNRf" id="7Bf6Ux7T$Jo" role="3clFbG">
-            <node concept="HV5vD" id="6_AAcCLjiq5" role="2ShVmc">
-              <ref role="HV5vE" to="iqf9:~LabelProvider" resolve="LabelProvider" />
+            <node concept="1pGfFk" id="6f9Dl_QL44M" role="2ShVmc">
+              <ref role="37wK5l" to="iqf9:~LabelProvider.&lt;init&gt;()" resolve="LabelProvider" />
             </node>
           </node>
         </node>
