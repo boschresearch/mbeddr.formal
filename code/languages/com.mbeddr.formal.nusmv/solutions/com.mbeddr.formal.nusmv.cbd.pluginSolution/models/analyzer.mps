@@ -980,6 +980,9 @@
               <node concept="37vLTw" id="4gtLUSMHAHM" role="37wK5m">
                 <ref role="3cqZAo" node="7mSH3Wn4Al6" resolve="analyzedComponent" />
               </node>
+              <node concept="37vLTw" id="6f9Dl_QJw5l" role="37wK5m">
+                <ref role="3cqZAo" node="5JxTVX$Nek2" resolve="optionalOutputPath" />
+              </node>
             </node>
           </node>
         </node>
@@ -1103,6 +1106,9 @@
               <ref role="37wK5l" node="1EKbsQQYaXf" resolve="readLinesOfGeneratedSMVFile" />
               <node concept="37vLTw" id="1EKbsQQYdDb" role="37wK5m">
                 <ref role="3cqZAo" node="1EKbsQQYcVO" resolve="analyzedComponent" />
+              </node>
+              <node concept="37vLTw" id="6f9Dl_QJCOk" role="37wK5m">
+                <ref role="3cqZAo" node="6f9Dl_QJzYM" resolve="optionalOutputPath" />
               </node>
             </node>
           </node>
@@ -1446,6 +1452,9 @@
                     <node concept="37vLTw" id="1EKbsQQYH_y" role="37wK5m">
                       <ref role="3cqZAo" node="1EKbsQQYcVO" resolve="analyzedComponent" />
                     </node>
+                    <node concept="37vLTw" id="6f9Dl_QK5G_" role="37wK5m">
+                      <ref role="3cqZAo" node="6f9Dl_QJzYM" resolve="optionalOutputPath" />
+                    </node>
                   </node>
                   <node concept="37vLTw" id="6EFcW_ADWar" role="37wK5m">
                     <ref role="3cqZAo" node="1NcemxVJaqt" resolve="lineNumberOfCurrentResult" />
@@ -1601,6 +1610,10 @@
         <node concept="3Tqbb2" id="1EKbsQQYdvq" role="1tU5fm">
           <ref role="ehGHo" to="vzqj:7RhjhI7$lgU" resolve="ComponentAssembly" />
         </node>
+      </node>
+      <node concept="37vLTG" id="6f9Dl_QJzYM" role="3clF46">
+        <property role="TrG5h" value="optionalOutputPath" />
+        <node concept="17QB3L" id="6f9Dl_QJ$TH" role="1tU5fm" />
       </node>
       <node concept="_YKpA" id="1NcemxVGyzq" role="3clF45">
         <node concept="3uibUv" id="1EKbsQR8GRG" role="_ZDj9">
@@ -2825,6 +2838,10 @@
           <ref role="ehGHo" to="vzqj:7RhjhI7$lgU" resolve="ComponentAssembly" />
         </node>
       </node>
+      <node concept="37vLTG" id="6f9Dl_QJDzJ" role="3clF46">
+        <property role="TrG5h" value="optionalOutputPath" />
+        <node concept="17QB3L" id="6f9Dl_QJD_6" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="1NcemxVIxNU" role="3clF47">
         <node concept="3cpWs8" id="1NcemxVIxON" role="3cqZAp">
           <node concept="3cpWsn" id="1NcemxVIxOM" role="3cpWs9">
@@ -2850,10 +2867,13 @@
                   <node concept="2ShNRf" id="1NcemxVIxOp" role="37wK5m">
                     <node concept="1pGfFk" id="1NcemxVIxOq" role="2ShVmc">
                       <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                      <node concept="1rXfSq" id="1NcemxVKSPg" role="37wK5m">
+                      <node concept="1rXfSq" id="6f9Dl_QJIWG" role="37wK5m">
                         <ref role="37wK5l" node="1EKbsQQYacz" resolve="fullyQualifiedSMVFileName" />
-                        <node concept="37vLTw" id="1EKbsQQYf$z" role="37wK5m">
+                        <node concept="37vLTw" id="6f9Dl_QJIWH" role="37wK5m">
                           <ref role="3cqZAo" node="1EKbsQQYebE" resolve="analyzedComponent" />
+                        </node>
+                        <node concept="37vLTw" id="6f9Dl_QK4rb" role="37wK5m">
+                          <ref role="3cqZAo" node="6f9Dl_QJDzJ" resolve="optionalOutputPath" />
                         </node>
                       </node>
                     </node>
@@ -2909,6 +2929,10 @@
           <ref role="ehGHo" to="vzqj:7RhjhI7$lgU" resolve="ComponentAssembly" />
         </node>
       </node>
+      <node concept="37vLTG" id="6f9Dl_QJVpo" role="3clF46">
+        <property role="TrG5h" value="optionalOutputPath" />
+        <node concept="17QB3L" id="6f9Dl_QJVTL" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="1NcemxVKMGy" role="3clF47">
         <node concept="3cpWs8" id="1NcemxVKMG_" role="3cqZAp">
           <node concept="3cpWsn" id="1NcemxVKMGA" role="3cpWs9">
@@ -2925,20 +2949,44 @@
         <node concept="3kxDZ6" id="1NcemxVKMGF" role="3cqZAp">
           <node concept="9aQIb" id="1NcemxVKMGG" role="3kxCCa">
             <node concept="3clFbS" id="1NcemxVKMGH" role="9aQI4">
-              <node concept="3clFbF" id="1NcemxVKMGI" role="3cqZAp">
-                <node concept="37vLTI" id="1NcemxVKMGJ" role="3clFbG">
-                  <node concept="NRdvd" id="1NcemxVKMGK" role="37vLTx">
-                    <ref role="37wK5l" to="fhlc:3hNQKr2Cac0" resolve="computePathToGeneratedDirectory" />
-                    <ref role="1Pybhc" to="fhlc:3AFGfkfpqfj" resolve="PathsUtils" />
-                    <node concept="2OqwBi" id="1NcemxVKMGL" role="37wK5m">
-                      <node concept="37vLTw" id="1NcemxVKMGM" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1EKbsQQYeOW" resolve="analyzedComponent" />
+              <node concept="3clFbJ" id="6f9Dl_QJJM1" role="3cqZAp">
+                <node concept="3clFbS" id="6f9Dl_QJJM3" role="3clFbx">
+                  <node concept="3clFbF" id="6f9Dl_QJMVU" role="3cqZAp">
+                    <node concept="37vLTI" id="6f9Dl_QJN9m" role="3clFbG">
+                      <node concept="37vLTw" id="6f9Dl_QK1Yz" role="37vLTJ">
+                        <ref role="3cqZAo" node="1NcemxVKMGA" resolve="verificationDirectory" />
                       </node>
-                      <node concept="I4A8Y" id="1NcemxVKMGN" role="2OqNvi" />
+                      <node concept="37vLTw" id="6f9Dl_QJOZ0" role="37vLTx">
+                        <ref role="3cqZAo" node="6f9Dl_QJVpo" resolve="optionalOutputPath" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="37vLTw" id="1NcemxVKMGO" role="37vLTJ">
-                    <ref role="3cqZAo" node="1NcemxVKMGA" resolve="verificationDirectory" />
+                </node>
+                <node concept="3y3z36" id="6f9Dl_QJL3_" role="3clFbw">
+                  <node concept="10Nm6u" id="6f9Dl_QJMge" role="3uHU7w" />
+                  <node concept="37vLTw" id="6f9Dl_QJK4y" role="3uHU7B">
+                    <ref role="3cqZAo" node="6f9Dl_QJVpo" resolve="optionalOutputPath" />
+                  </node>
+                </node>
+                <node concept="9aQIb" id="6f9Dl_QJPHR" role="9aQIa">
+                  <node concept="3clFbS" id="6f9Dl_QJPHS" role="9aQI4">
+                    <node concept="3clFbF" id="6f9Dl_QK212" role="3cqZAp">
+                      <node concept="37vLTI" id="6f9Dl_QK2l9" role="3clFbG">
+                        <node concept="37vLTw" id="6f9Dl_QK214" role="37vLTJ">
+                          <ref role="3cqZAo" node="1NcemxVKMGA" resolve="verificationDirectory" />
+                        </node>
+                        <node concept="NRdvd" id="1NcemxVKMGK" role="37vLTx">
+                          <ref role="37wK5l" to="fhlc:3hNQKr2Cac0" resolve="computePathToGeneratedDirectory" />
+                          <ref role="1Pybhc" to="fhlc:3AFGfkfpqfj" resolve="PathsUtils" />
+                          <node concept="2OqwBi" id="1NcemxVKMGL" role="37wK5m">
+                            <node concept="37vLTw" id="1NcemxVKMGM" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1EKbsQQYeOW" resolve="analyzedComponent" />
+                            </node>
+                            <node concept="I4A8Y" id="1NcemxVKMGN" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
