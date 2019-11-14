@@ -2,7 +2,7 @@
 <model ref="r:82490cd1-a892-4666-a8ac-441c80d3f064(com.mbeddr.formal.req.nusmv.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -16,6 +16,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -42,33 +43,34 @@
   </registry>
   <node concept="1TIwiD" id="2N7iSwGBlMX">
     <property role="EcuMT" value="3226630706270395581" />
-    <property role="TrG5h" value="ModuleReqSpec" />
+    <property role="TrG5h" value="ModuleRefReqSpec" />
     <property role="34LRSv" value="module (SMV)" />
+    <property role="R4oN_" value="spec as SMV module" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2N7iSwGBmbe" role="1TKVEi">
-      <property role="IQ2ns" value="3226630706270397134" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="module" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="gioj:6NmtaR1SULH" resolve="ModuleDeclaration" />
-    </node>
     <node concept="PrWs8" id="2N7iSwGBlMY" role="PzmwI">
       <ref role="PrY4T" to="z27p:4gtLUSMLiPR" resolve="IRequirementSpecification" />
+    </node>
+    <node concept="1TJgyj" id="57$lt3aQz5A" role="1TKVEi">
+      <property role="IQ2ns" value="5900935767007048038" />
+      <property role="20kJfa" value="mod" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="gioj:6NmtaR1SULH" resolve="ModuleDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="2N7iSwGBOW_">
     <property role="EcuMT" value="3226630706270523173" />
     <property role="TrG5h" value="DatatypesReqSpec" />
     <property role="34LRSv" value="data-types" />
+    <property role="R4oN_" value="data tpes spec" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2N7iSwGBOWA" role="PzmwI">
       <ref role="PrY4T" to="z27p:4gtLUSMLiPR" resolve="IRequirementSpecification" />
     </node>
     <node concept="1TJgyj" id="2N7iSwGBOWC" role="1TKVEi">
       <property role="IQ2ns" value="3226630706270523176" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="typeDeclarations" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="ehqg:2N7iSwGBOWF" resolve="IUserDefinedTypeDeclaration" />
     </node>
   </node>
@@ -78,9 +80,8 @@
     <property role="34LRSv" value="@enum_member" />
     <node concept="1TJgyj" id="2N7iSwGBRWX" role="1TKVEi">
       <property role="IQ2ns" value="3226630706270535485" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="enum" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="gioj:6NmtaR1SWfR" resolve="EnumerationMember" />
     </node>
     <node concept="PrWs8" id="2N7iSwGBUPM" role="PzmwI">

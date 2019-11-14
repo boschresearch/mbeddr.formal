@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/com.mpsbasics.docx4j.core/com.mpsbasics.docx4j.core.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mpsbasics.docx4j.lib/com.mpsbasics.docx4j.lib.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mpsbasics.docx4j.sandbox/com.mpsbasics.docx4j.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mpsbasics.snode.utils/com.mpsbasics.snode.utils.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
